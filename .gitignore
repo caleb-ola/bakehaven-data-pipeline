@@ -1,0 +1,60 @@
+data/
+data/*.csv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.nugfi-env/
+.spark-env/
+*.env
+*.venv
+*.conda
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# PySpark specific
+metastore_db/
+derby.log
+
+# Output / temp data
+output/
+tmp/
+temp/
+*.parquet
+*.csv
+*.json
+
+# Unit test cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# SQLite DB
+*.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
